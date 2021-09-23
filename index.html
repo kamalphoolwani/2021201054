@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css" >
+</head>
+<body class="body" id="body">
+    <header class="header" id="header">
+        <div class="me">
+            <img src="images/me.jpg">
+            <h1>Kamal Phoolwani</h1>
+        </div>
+        <nav class="nav">
+            <ul id="nav_menu">
+                <li><a href="#home" onclick="homeDis()">Home</a></li>
+                <li><a href="#edu" onclick="aboutDis()">Education</a></li>
+                <li><a href="#skills" onclick="skillsDis()">Skills</a></li>
+                <li><a href="#pro" onclick="proDis()">Project</a></li>
+                <li><a href="#contact" onclick="contactDis()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="menu" class="fas fa-bars" onclick="myFunction()">
+    </div>
+
+    <!--Home Section Starts-->
+    <section class="home" id="home">
+        <h1> Hi There!</h1>
+        <h3>I am Kamal  Phoolwani</h3>
+        <p> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, 
+            so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty 
+            through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. 
+            In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be 
+            welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur 
+            that pleasures have to be repudiated and annoyances accepted.</p>
+        <br>
+        <a href="https://drive.google.com/file/d/1-6AvM-bTHl_A80mHCrNpnUnxaSkekkTg/view?usp=sharing" target="_blank" rel="noopener noreferrer" class=" fas fa-download" download>  Download CV</a>
+    
+    </section>
+    <!--Home Section Ends-->
+
+    <!--Education Section Starts-->
+    <section class="edu" id="edu">
+        <h1>Education</h1>
+        <div class="row">    
+            <div class="col">
+                <table>
+                    <tr>
+                        <th colspan="2"><h3>M.Tech</h3></th>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><img src="https://upload.wikimedia.org/wikipedia/en/e/e1/International_Institute_of_Information_Technology%2C_Hyderabad_logo.png" alt="IIIT Hyderabad" class="imgcollege"></td>
+                    </tr>
+                    <tr>
+                        <th>College</th>
+                        <td>IIIT Hyderabad</td>
+                    </tr>
+                    <tr>
+                        <th>Branch</th>
+                        <td>Computer Science & Engg.</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Website: <a href="https://www.iiit.ac.in/" target="_blank" rel="noopener noreferrer">www.iiit.ac.in</a></th>
+                    </tr>            
+                </table>
+            </div>
+            <div class="col">
+                <table class>
+                    <tr>
+                        <th colspan="2"><h3>B.Tech</h3></th>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><img src="https://images.static-collegedunia.com/public/college_data/images/logos/1500266282KNITlogo.png" alt="KNIT Sultanpur" class="imgcollege1"></td>
+                    </tr>
+                    <tr>
+                        <th>College</th>
+                        <td>KNIT Sultanpur</td>
+                    </tr>
+                    <tr>
+                        <th>Branch</th>
+                        <td>Electronics Engineering</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Website: <a href="http://www.knit.ac.in/" target="_blank" rel="noopener noreferrer">www.knit.ac.in</a></th>
+                    </tr>
+                </table>
+            </div>
+        </div>   
+    </section>
+    <!--Education Section Ends-->
+
+    <!--Skills Section Starts-->
+    <section class="skills" id="skills">
+        <h1>Skills</h1>
+        <div class="list">
+            <div class="skillbox">
+                <h3>C++</h3>
+            </div>
+            <div class="skillbox">
+                <h3>Data Structures</h3>
+            </div>
+            <div class="skillbox">
+                <h3>Robotics</h3>
+            </div>
+            <div class="skillbox">
+                <h3>IOT</h3>
+            </div>
+            <div class="skillbox">
+                <h3>Arduino</h3>
+            </div>
+            <div class="skillbox">
+                <h3>Raspberry Pi</h3>
+            </div>
+            <div class="skillbox">
+                <h3>Blackbox Testing</h3>
+            </div>
+            <div class="skillbox">
+                <h3>HTML</h3>
+            </div>
+            <div class="skillbox">
+                <h3>CSS</h3>
+            </div>
+        </div>
+        
+
+    </section>
+    <!--Skills Section Ends-->
+
+    <!--Project Start-->
+    <section class="pro" id="pro">
+        <h1>Projects</h1>
+        <img src="images/coming.jpg">
+    </section>
+    <!--Project ends-->
+    <!--Contact Me Starts-->
+    <section class="contact" id="contact">
+        <h1>Contact Me</h1>
+            <form action="" class="c_form">
+                <input type="text" placeholder="Name" class="form">
+                <br>
+                <input type="email" placeholder="E-mail" class="form">
+                <br>
+                <textarea name="" id="" cols="40" rows="10" class="form" placeholder="Message"></textarea>
+                <button type="submit" class="form_button"><i class="fas fa-paper-plane"></i> Send</button>
+            </form>
+            <div class="info">
+                <a href="https://www.linkedin.com/in/kamal-phoolwani-0019/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i>in/kamal-phoolwani-0019</a>
+                <br>
+                <a href="https://github.com/kamalphoolwani" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>github.com/kamalphoolwani</a>
+            </div>
+    </section>
+    <!--Contact Me ends-->
+    <footer id="time"></footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
