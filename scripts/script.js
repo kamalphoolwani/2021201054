@@ -1,12 +1,9 @@
 function myFunction() {
   var x = document.getElementById("header");
-  // var y = document.getElementById("body");
   if (x.className === "header") {
     x.className += "responsive";
-    // y.className+= "res";
   } else {
     x.className = "header"; 
-    // y.className= "body";
   }
 }
 
