@@ -5,10 +5,10 @@
 * index.html is the main page for running website in local.
 
 * Sections:
-Home
-Education
-Skills
-Projects
-Contact
+ 1. Home
+ 2. Education
+ 3. Skills
+ 4. Projects
+ 5. Contact
 
 * CSS files are kept in styles folder, javascript in scripts foldes and images used are inside images folder.
